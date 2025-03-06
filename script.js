@@ -10,7 +10,7 @@
                 return;
             }
 
-            new Promise((resolve, reject) => {
+           let vote= new Promise((resolve, reject) => {
                 setTimeout(() => {
                     if (age > 18) {
                         resolve(`Welcome, ${name}. You can vote.`);
